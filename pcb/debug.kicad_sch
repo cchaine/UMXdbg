@@ -373,8 +373,61 @@
         )
       )
     )
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (id 1) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
+
+  (wire (pts (xy 45.72 115.57) (xy 45.72 118.11))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid e4eacc4e-c6a1-448f-8868-4d2c28e8d8f8)
+  )
+
+  (global_label "VBUS" (shape input) (at 60.96 77.47 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a828ae53-6f05-4841-9cdf-d3100dac8ed7)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 68.2717 77.3906 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+  )
 
   (symbol (lib_id "Connector:USB_C_Plug_USB2.0") (at 45.72 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
@@ -452,6 +505,22 @@
     (pin "9" (uuid 5d3d7893-1d11-4f1d-9052-85cf0e07d281))
   )
 
+  (symbol (lib_id "power:GND") (at 45.72 118.11 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 94884f5c-d59b-4b75-abd7-44726b7a235a)
+    (property "Reference" "#PWR?" (id 0) (at 45.72 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 45.72 123.19 0))
+    (property "Footprint" "" (id 2) (at 45.72 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 45.72 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6cffef3f-9d57-4a47-8aac-95ce18c382ad))
+  )
+
   (sheet (at 171.45 219.71) (size 24.13 19.05) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -496,6 +565,57 @@
   )
 
   (symbol_instances
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/2e74d807-b0fe-4e20-9ef7-ed84c7863992"
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/2d21afbd-6859-4669-a772-031efa34f4ca"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/45f16f4e-0be6-4730-a0ff-76769f804a66"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/dfea10a7-1cbe-4c44-a951-08c8c82414b9/50fb4ca1-22a3-4466-ab42-e0b30b8cb45f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/dfea10a7-1cbe-4c44-a951-08c8c82414b9/58475425-b42f-4af3-9c27-3bfb381b9dbc"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/94884f5c-d59b-4b75-abd7-44726b7a235a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/a43f493d-f709-4ca9-9df9-a46685d2f7a2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/bc7f0831-fb41-4e41-b4a1-87de6e384650"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/ca0117f5-c935-4a15-9120-d20f94ec645f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/e18d338e-e566-43ef-ab1a-e91845ba4607"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/dfea10a7-1cbe-4c44-a951-08c8c82414b9/f0208d8e-9c49-4e8a-9555-afee527cca7a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/f0f17df2-bb70-4da8-ab70-70dc33265364"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/f5b12451-8c10-452e-97b4-d0279ae5f0a0"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/9e702b4b-af83-4225-99e7-d3b37033d4f6"
+      (reference "C?") (unit 1) (value "1u") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/d31985b9-4de6-488d-a2f4-75966192efdf"
+      (reference "C?") (unit 1) (value "1u") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/fcdaf3af-f4d4-427c-8c20-ed0729a5b02a"
+      (reference "C?") (unit 1) (value "1u") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/3f6b5f2a-45d9-4080-aba4-0ff576a8a80f"
+      (reference "FB?") (unit 1) (value "600R") (footprint "")
+    )
     (path "/dfea10a7-1cbe-4c44-a951-08c8c82414b9/4ec00cc8-73ee-4a88-8f61-16dd24bb6fe7"
       (reference "J?") (unit 1) (value "09031966921") (footprint "Harting-09031966921-0-0-*")
     )
@@ -508,8 +628,11 @@
     (path "/0c215629-2731-4729-be92-661d2c631d50"
       (reference "P?") (unit 1) (value "USB_C_Plug_USB2.0") (footprint "")
     )
-    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/64f3e14b-8a0a-445b-842d-7829e058b95b"
-      (reference "Q?") (unit 1) (value "Q_NPN_BCE") (footprint "")
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/f8a17ca4-324e-4b9e-940d-3e3a6aba4552"
+      (reference "Q?") (unit 1) (value "Q_PNP_BCE") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/e6d3f2ec-0651-4501-9d4b-6ed215e299b7"
+      (reference "R?") (unit 1) (value "R_Small") (footprint "")
     )
     (path "/22bb6c80-05a9-4d89-98b0-f4c23fe6c1ce"
       (reference "U?") (unit 1) (value "FT4222HQ") (footprint "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm")
