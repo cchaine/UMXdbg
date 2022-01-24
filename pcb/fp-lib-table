@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "ECS-120-18-33-JGN-TR")(type "KiCad")(uri "${KIPRJMOD}/libs/ECS-120-18-33-JGN-TR/ECS-120-18-33-JGN-TR.pretty")(options "")(descr ""))
+)

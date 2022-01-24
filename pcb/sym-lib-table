@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name "stlq020")(type "KiCad")(uri "${KIPRJMOD}/libs/stlq020/stlq020.kicad_sym")(options "")(descr ""))
   (lib (name "Conn-09031966821")(type "KiCad")(uri "${KIPRJMOD}/libs/Conn-09031966821/Conn-09031966821.kicad_sym")(options "")(descr ""))
+  (lib (name "LPC55S28JBD100K")(type "KiCad")(uri "${KIPRJMOD}/libs/LPC55S28JBD100K/LPC55S28JBD100K.kicad_sym")(options "")(descr ""))
 )
