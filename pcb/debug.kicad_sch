@@ -770,7 +770,6 @@
     )
   )
 
-
   (junction (at 224.79 46.99) (diameter 0) (color 0 0 0 0)
     (uuid 076a1b09-efcf-476d-abde-12ca8ef9a044)
   )
@@ -849,14 +848,14 @@
 
   (no_connect (at 196.85 78.74) (uuid 0b51900e-85f5-46e3-a039-3096fe6e33de))
   (no_connect (at 100.33 92.71) (uuid 149c1cdc-6415-451b-9e9e-2c249b054db4))
-  (no_connect (at 90.17 97.79) (uuid 149c1cdc-6415-451b-9e9e-2c249b054db4))
+  (no_connect (at 90.17 97.79) (uuid 149c1cdc-6415-451b-9e9e-2c249b054db5))
   (no_connect (at 212.09 106.68) (uuid 6b5c88cc-900f-4830-827e-c3d3dfe4373d))
-  (no_connect (at 212.09 101.6) (uuid 6b5c88cc-900f-4830-827e-c3d3dfe4373d))
-  (no_connect (at 212.09 104.14) (uuid 6b5c88cc-900f-4830-827e-c3d3dfe4373d))
-  (no_connect (at 212.09 99.06) (uuid 6b5c88cc-900f-4830-827e-c3d3dfe4373d))
+  (no_connect (at 212.09 101.6) (uuid 6b5c88cc-900f-4830-827e-c3d3dfe4373e))
+  (no_connect (at 212.09 104.14) (uuid 6b5c88cc-900f-4830-827e-c3d3dfe4373f))
+  (no_connect (at 212.09 99.06) (uuid 6b5c88cc-900f-4830-827e-c3d3dfe43740))
   (no_connect (at 212.09 119.38) (uuid af489bd3-b50d-479c-a61b-b642c9ce40f4))
   (no_connect (at 212.09 91.44) (uuid ed9a90e0-eda7-4530-b1cf-1861da1bb2a9))
-  (no_connect (at 212.09 93.98) (uuid ed9a90e0-eda7-4530-b1cf-1861da1bb2a9))
+  (no_connect (at 212.09 93.98) (uuid ed9a90e0-eda7-4530-b1cf-1861da1bb2aa))
 
   (wire (pts (xy 151.13 121.92) (xy 151.13 120.65))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2250,6 +2249,27 @@
     (path "/dfea10a7-1cbe-4c44-a951-08c8c82414b9/f0208d8e-9c49-4e8a-9555-afee527cca7a"
       (reference "#PWR038") (unit 1) (value "GND") (footprint "")
     )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/0d1dd210-6fda-4618-953f-a063ddc2be8a"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/669fa669-5454-4bec-afba-4554c84f8ca6"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/70ec69be-5db5-47a6-bdb2-85337785b92e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/86ba9f20-32c8-4a9d-af6b-b953c7dbcee4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/88f97de3-3c43-4129-8200-586c44199b88"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/df382c8a-f82e-4020-b05d-6a3f59f9d4cd"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/ef480590-226f-4eaa-b87f-d7dad4b70402"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/0056e9b6-9e95-45b5-baf9-a3f1f3b0cfb6"
       (reference "C1") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -2328,6 +2348,15 @@
     (path "/4f926a51-5226-43cc-9957-25202b8286cb/1f4fc228-af58-433f-bd67-f8aa3b4cd623"
       (reference "C26") (unit 1) (value "8p") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/a43a56cb-8b7c-4f09-a04f-f0aabf87e068"
+      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/8a2b7199-2b77-49a1-ad6a-9831537ce071"
+      (reference "D?") (unit 1) (value "Red") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/ab6f94d5-4b11-47a6-bdc4-dbb34721f318"
+      (reference "D?") (unit 1) (value "Green") (footprint "")
+    )
     (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/3f6b5f2a-45d9-4080-aba4-0ff576a8a80f"
       (reference "FB1") (unit 1) (value "600R") (footprint "")
     )
@@ -2348,6 +2377,12 @@
     )
     (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/f8a17ca4-324e-4b9e-940d-3e3a6aba4552"
       (reference "Q1") (unit 1) (value "Q_PNP_BCE") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/308e38e3-4b9c-4dc0-a69a-03805e5e5354"
+      (reference "Q?") (unit 1) (value "Q_PNP_BCE") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/713f84a9-b407-4cc4-814c-6cacd9e9c02e"
+      (reference "Q?") (unit 1) (value "Q_PNP_BCE") (footprint "")
     )
     (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/970a4ce0-90ad-470d-b2e0-36efc99e7e70"
       (reference "R1") (unit 1) (value "10k") (footprint "")
@@ -2388,6 +2423,18 @@
     (path "/4f926a51-5226-43cc-9957-25202b8286cb/7edd4d56-d2bf-464a-b713-d05a2c6fcd52"
       (reference "R13") (unit 1) (value "10k") (footprint "")
     )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/4c03f37e-63e2-4581-875e-3653ef19a9f7"
+      (reference "R?") (unit 1) (value "220") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/5488ee06-7eb1-4bc2-9e8f-70358277803a"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/c31703a7-94a2-4957-94ad-cca7542a454b"
+      (reference "R?") (unit 1) (value "R_Small") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/f241a934-306c-4c1b-b5df-79442299d9f9"
+      (reference "R?") (unit 1) (value "220") (footprint "")
+    )
     (path "/68dd0864-7308-416d-96e0-57c47ec6c321"
       (reference "SW1") (unit 1) (value "SW_DIP_x02") (footprint "")
     )
@@ -2402,6 +2449,12 @@
     )
     (path "/4f926a51-5226-43cc-9957-25202b8286cb/1319f77f-9eba-4463-9751-79dc611d400c"
       (reference "U3") (unit 1) (value "STM32F103V8Tx") (footprint "Package_QFP:LQFP-100_14x14mm_P0.5mm")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/11ceb24b-1a73-4b60-8956-931bb4939272"
+      (reference "U?") (unit 1) (value "INA381AxDSG") (footprint "")
+    )
+    (path "/1b1ae3dd-f20e-4dc4-843b-d424ca135075/b0900b83-2b5f-4913-abc3-363a1f352091"
+      (reference "U?") (unit 2) (value "INA381AxDSG") (footprint "")
     )
     (path "/37ce75d8-c1c9-42af-87cc-b78444838bd8"
       (reference "Y1") (unit 1) (value "12MHz") (footprint "ECS-120-18-33-JGN-TR:XTAL_ECS-120-18-33-JGN-TR")
