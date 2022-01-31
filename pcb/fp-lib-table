@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name "ECS-120-18-33-JGN-TR")(type "KiCad")(uri "${KIPRJMOD}/libs/ECS-120-18-33-JGN-TR/ECS-120-18-33-JGN-TR.pretty")(options "")(descr ""))
+  (lib (name "10118194-0001LF")(type "KiCad")(uri "${KIPRJMOD}/libs/10118194-0001LF/10118194-0001LF.pretty")(options "")(descr ""))
+  (lib (name "DS04-254-2-02BK-SMT")(type "KiCad")(uri "${KIPRJMOD}/libs/DS04-254-2-02BK-SMT/DS04-254-2-02BK-SMT.pretty")(options "")(descr ""))
 )
