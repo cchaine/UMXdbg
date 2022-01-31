@@ -933,8 +933,8 @@
 
   (no_connect (at 196.85 78.74) (uuid 0b51900e-85f5-46e3-a039-3096fe6e33de))
   (no_connect (at 68.58 110.49) (uuid 3f8e4a44-ac8d-47e7-8dbd-2a428b1e5a2c))
-  (no_connect (at 91.44 100.33) (uuid 3f8e4a44-ac8d-47e7-8dbd-2a428b1e5a2c))
-  (no_connect (at 91.44 102.87) (uuid 3f8e4a44-ac8d-47e7-8dbd-2a428b1e5a2c))
+  (no_connect (at 91.44 100.33) (uuid 3f8e4a44-ac8d-47e7-8dbd-2a428b1e5a2d))
+  (no_connect (at 91.44 102.87) (uuid 3f8e4a44-ac8d-47e7-8dbd-2a428b1e5a2e))
   (no_connect (at 212.09 106.68) (uuid 6b5c88cc-900f-4830-827e-c3d3dfe4373d))
   (no_connect (at 212.09 101.6) (uuid 6b5c88cc-900f-4830-827e-c3d3dfe4373e))
   (no_connect (at 212.09 104.14) (uuid 6b5c88cc-900f-4830-827e-c3d3dfe4373f))
@@ -2621,13 +2621,13 @@
       (reference "FB2") (unit 1) (value "100") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/dfea10a7-1cbe-4c44-a951-08c8c82414b9/4ec00cc8-73ee-4a88-8f61-16dd24bb6fe7"
-      (reference "J1") (unit 1) (value "09732966801") (footprint "09031966821:Harting-09031966921-0-0-0")
+      (reference "J1") (unit 1) (value "09032967825") (footprint "09031966821:09032967825")
     )
     (path "/dfea10a7-1cbe-4c44-a951-08c8c82414b9/37a00ce4-fc77-42b4-b9cc-9cd74fbf3f3d"
-      (reference "J1") (unit 2) (value "09732966801") (footprint "09031966821:Harting-09031966921-0-0-0")
+      (reference "J1") (unit 2) (value "09032967825") (footprint "09031966821:09032967825")
     )
     (path "/dfea10a7-1cbe-4c44-a951-08c8c82414b9/8f1b6366-89c9-4af9-98fb-514a07e3abf8"
-      (reference "J1") (unit 3) (value "09732966801") (footprint "09031966821:Harting-09031966921-0-0-0")
+      (reference "J1") (unit 3) (value "09032967825") (footprint "09031966821:09032967825")
     )
     (path "/923d9630-cc8b-4543-b0a0-69394df49229"
       (reference "J2") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "USB4105-GF-A:GCT_USB4105-GF-A")
