@@ -2908,13 +2908,13 @@
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/dfea10a7-1cbe-4c44-a951-08c8c82414b9/4ec00cc8-73ee-4a88-8f61-16dd24bb6fe7"
-      (reference "J1") (unit 1) (value "09032967825") (footprint "09031966821:09032967825")
+      (reference "J1") (unit 1) (value "09032967825") (footprint "09031966821:Harting-09031966921-0-0-0")
     )
     (path "/dfea10a7-1cbe-4c44-a951-08c8c82414b9/37a00ce4-fc77-42b4-b9cc-9cd74fbf3f3d"
-      (reference "J1") (unit 2) (value "09032967825") (footprint "09031966821:09032967825")
+      (reference "J1") (unit 2) (value "09032967825") (footprint "09031966821:Harting-09031966921-0-0-0")
     )
     (path "/dfea10a7-1cbe-4c44-a951-08c8c82414b9/8f1b6366-89c9-4af9-98fb-514a07e3abf8"
-      (reference "J1") (unit 3) (value "09032967825") (footprint "09031966821:09032967825")
+      (reference "J1") (unit 3) (value "09032967825") (footprint "09031966821:Harting-09031966921-0-0-0")
     )
     (path "/923d9630-cc8b-4543-b0a0-69394df49229"
       (reference "J2") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "USB4105-GF-A:GCT_USB4105-GF-A")
