@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Bus")
+    (date "2022-02-26")
+    (rev "1.0")
+  )
+
   (lib_symbols
     (symbol "Conn-09031966821:09031966921" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 7.62 0)

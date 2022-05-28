@@ -6,6 +6,8 @@
 
   (title_block
     (title "USB to SPI interface")
+    (date "2022-02-26")
+    (rev "1.0")
   )
 
   (lib_symbols
